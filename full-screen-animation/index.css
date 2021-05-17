@@ -1,0 +1,28 @@
+:root {
+    --window-height: 800vh;
+    --animation-percent: 0;
+}
+
+html, body {
+    width: 100%;
+    height: var(--window-height, 1000vh);
+    margin: 0;
+}
+
+.container {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#main-res {
+    background-color: cornflowerblue;
+    display: inline-block;
+    height: 10em;
+    width: 17em;
+    position: relative;
+    top: 10em;
+    left: 13em;
+}

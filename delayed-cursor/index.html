@@ -1,0 +1,27 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./index.css" />
+    </head>
+    <body>
+        <div id="pointer-dot"></div>
+        <div id="pointer-shadow"></div>
+
+        <script type="text/javascript">
+        window.onload = () => {
+            const pointerDot = document.getElementById('pointer-dot'),
+                pointerShadow = document.getElementById('pointer-shadow');
+    
+            window.onmousemove = eventArgs => {
+                pointerDot.style.top = (eventArgs.clientY - pointerDot.offsetHeight/2) + 'px';
+                pointerDot.style.left = (eventArgs.clientX - pointerDot.offsetWidth/2) + 'px';
+    
+                setTimeout(() => {
+                    pointerShadow.style.top = (eventArgs.clientY - pointerShadow.offsetHeight/2) + 'px';
+                    pointerShadow.style.left = (eventArgs.clientX - pointerShadow.offsetWidth/2) + 'px';
+                }, 100);
+            };
+        };
+        </script>
+    </body>
+</html>
