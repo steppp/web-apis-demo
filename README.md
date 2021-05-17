@@ -1,6 +1,6 @@
 # WEB APIS DEMOS
 
-This repository contains come demos to try out some web APIs which run in the browser. The code is divided into different projects, each one on its own folder.
+This repository contains come demos to try out some web APIs which run in the browser. The code is divided into different projects, each one in its own folder.
 
 ## List of projects
 
