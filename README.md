@@ -9,3 +9,7 @@ This repository contains come demos to try out some web APIs which run in the br
 - **Fullscreen animation**: an animation that progresses as the scroll does exploiting the Animations API.
 
 - **Parallax**: simple parallax effect on different elements using CSS rules only.
+
+- **Linear gradient**: simple gradient text which gradually changes colors and whose orientation follows the mouse.
+
+- **env**: basic example which shows the advantages of using *env* variables in css code to avoid content being clipped by other interface/physical elements.
